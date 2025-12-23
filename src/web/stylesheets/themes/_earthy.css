@@ -1,0 +1,134 @@
+/**
+ * Earthy theme definitions
+ * Earthy green, sand, and cream color palette
+ *
+ * @author Custom Theme
+ * @license Apache-2.0
+ */
+
+:root.earthy {
+    --primary-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, sans-serif;
+    --primary-font-colour: #3d3929;
+    --primary-font-size: 14px;
+    --primary-line-height: 20px;
+
+    --fixed-width-font-family: SFMono-Regular, Menlo, Monaco, Consolas,
+        "Liberation Mono", "Courier New", monospace;
+    --fixed-width-font-colour: inherit;
+    --fixed-width-font-size: inherit;
+
+    --subtext-font-colour: #8b8670;
+    --subtext-font-size: 13px;
+
+    --primary-background-colour: #faf8f3;
+    --secondary-background-colour: #f5f1e8;
+
+    --primary-border-colour: #d4cdb8;
+    --secondary-border-colour: #e5dfc9;
+
+    --title-colour: #4a5f3a;
+    --title-weight: bold;
+    --title-size: 16px;
+    --title-background-colour: #eae5d6;
+
+    --banner-font-colour: #5d7548;
+    --banner-bg-colour: #e8f0dd;
+    --banner-url-colour: #6b8e4e;
+
+    --category-list-font-colour: #6b8e4e;
+
+    --loader-background-colour: var(--secondary-border-colour);
+    --loader-outer-colour: #7a9b5e;
+    --loader-middle-colour: #c9a66b;
+    --loader-inner-colour: #8db36a;
+
+
+    /* Operation colours */
+    --op-list-operation-font-colour: #5d7548;
+    --op-list-operation-bg-colour: #e8f0dd;
+    --op-list-operation-border-colour: #d1e2be;
+
+    --rec-list-operation-font-colour: #6b8e4e;
+    --rec-list-operation-bg-colour: #dfe9d0;
+    --rec-list-operation-border-colour: #c9ddb5;
+
+    --selected-operation-font-color: #7a6d4a;
+    --selected-operation-bg-colour: #f8f3e3;
+    --selected-operation-border-colour: #ebe1c8;
+
+    --breakpoint-font-colour: #9b5d4a;
+    --breakpoint-bg-colour: #f5e5de;
+    --breakpoint-border-colour: #e8d0c5;
+
+    --disabled-font-colour: #9c9580;
+    --disabled-bg-colour: #e5dfc9;
+    --disabled-border-colour: #d4cdb8;
+
+    --fc-operation-font-colour: #4a6038;
+    --fc-operation-bg-colour: #d8e6c4;
+    --fc-operation-border-colour: #c4d9ab;
+
+    --fc-breakpoint-operation-font-colour: #8b4d3a;
+    --fc-breakpoint-operation-bg-colour: #f0d9cf;
+    --fc-breakpoint-operation-border-colour: #e5c6b8;
+
+
+    /* Operation arguments */
+    --op-title-font-weight: bold;
+    --arg-font-colour: #4a5f3a;
+    --arg-background: #fdfcf9;
+    --arg-border-colour: #d4cdb8;
+    --arg-disabled-background: #ebe7db;
+    --arg-label-colour: #6b8e4e;
+
+
+    /* Operation buttons */
+    --disable-icon-colour: #9c9580;
+    --disable-icon-selected-colour: #b85d4a;
+    --breakpoint-icon-colour: #9c9580;
+    --breakpoint-icon-selected-colour: #b85d4a;
+
+
+    /* Buttons */
+    --btn-default-font-colour: #3d3929;
+    --btn-default-bg-colour: #f5f1e8;
+    --btn-default-border-colour: #d4cdb8;
+
+    --btn-default-hover-font-colour: #3d3929;
+    --btn-default-hover-bg-colour: #eae5d6;
+    --btn-default-hover-border-colour: #c4baaa;
+
+    --btn-success-font-colour: #fff;
+    --btn-success-bg-colour: #7a9b5e;
+    --btn-success-border-colour: #6b8e4e;
+
+    --btn-success-hover-font-colour: #fff;
+    --btn-success-hover-bg-colour: #6b8e4e;
+    --btn-success-hover-border-colour: #5d7548;
+
+
+    /* Highlighter colours */
+    --hl1: #fef3b8aa;
+    --hl2: #b8e6d5aa;
+    --hl3: #f5c8b8aa;
+    --hl4: #f8f3e3aa;
+    --hl5: #d8e6c4aa;
+
+
+    /* Scrollbar */
+    --scrollbar-track: var(--secondary-background-colour);
+    --scrollbar-thumb: #c9c1ab;
+    --scrollbar-hover: #b8af99;
+
+
+    /* Misc. */
+    --drop-file-border-colour: #7a9b5e;
+    --table-border-colour: #d4cdb8;
+    --popover-background: #fdfcf9;
+    --popover-border-colour: #d4cdb8;
+    --code-background: #f0eee5;
+    --code-font-colour: #6b5d3a;
+    --input-highlight-colour: #7a9b5e;
+    --input-border-colour: #6b8e4e;
+}
